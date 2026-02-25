@@ -15,9 +15,6 @@ export default function ProductCard({ product, onAdd }: ProductCardProps) {
           <h3 className="font-semibold text-foreground group-hover:text-primary transition-colors">
             {product.name}
           </h3>
-          {product.nameHindi && (
-            <p className="text-sm text-muted-foreground">{product.nameHindi}</p>
-          )}
         </div>
         <span className="text-xs bg-secondary text-secondary-foreground px-2 py-1 rounded-full">
           {product.category}
