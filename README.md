@@ -5,7 +5,7 @@ Need help or want to join the community? Join our [Discord](https://discord.gg/s
 
 To run the devserver:
 ```
-npm install
+npm install --force
 npm run dev
 ```
 # crockery-bill
